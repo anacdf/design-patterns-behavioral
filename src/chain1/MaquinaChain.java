@@ -2,38 +2,63 @@ package chain1;
 
 public abstract class MaquinaChain {
     protected MaquinaChain prox;
-    protected Produtos produto;
+    protected Slots moeda;
+    private double cents;
+    private int quantidade;
+    private int saldo;
+    private double preco;
+    private double troco;
 
-    public MaquinaChain(Produtos id) {
+    public MaquinaChain(Slots id) {
         prox = null;
-        produto = id;
+        moeda = id;
     }
 
-    public void setNext(MaquinaChain forma) {
-        if (prox == null) {
-            prox = forma;
-        } else {
-            prox.setNext(forma);
+    private void acumulaMoedas(int cents, int quantidade){
+
+    }
+
+    public double getSaldo(){
+        return saldo;
+    }
+
+    public double getTroco(){
+        if(preco<saldo){
+            return troco = saldo - preco;
         }
+        return troco =0.0;
     }
 
-    public void dispensarProduto(Produtos id) throws Exception {
-        if (podeDispensarProduto(id)) {
-            efetuaPagamento();
-        } else {
-            if (prox == null) {
-                throw new Exception("banco não cadastrado");
-            }
-            prox.dispensarProduto(id);
-        }
+        public void dispensarProduto(Slots id) {
+       
     }
 
-    private boolean podeDispensarProduto(Produtos id) {
-        if (produto == id) {
-            return true;
-        }
-        return false;
-    }
+//    public void setNext(MaquinaChain forma) {
+//        if (prox == null) {
+//            prox = forma;
+//        } else {
+//            prox.setNext(forma);
+//        }
+//    }
+//
+//    public void dispensarProduto(Slots id) throws Exception {
+//        if (podeDispensarProduto(id)) {
+//            efetuaPagamento();
+//        } else {
+//            if (prox == null) {
+//                throw new Exception("banco não cadastrado");
+//            }
+//            prox.dispensarProduto(id);
+//        }
+//    }
+//
+//    private boolean podeDispensarProduto(Slots id) {
+//        if (moeda == id) {
+//            return true;
+//        }
+//        return false;
+//    }
+//
+//    protected abstract void efetuaPagamento();
 
-    protected abstract void efetuaPagamento();
 }
