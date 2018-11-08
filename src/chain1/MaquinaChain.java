@@ -5,16 +5,17 @@ public abstract class MaquinaChain {
     protected Slots moeda;
     private double cents;
     private int quantidade;
-    private int saldo;
+    private double saldo;
     private double preco;
     private double troco;
+    private Produto produto;
 
-    public MaquinaChain(Slots id) {
+    public MaquinaChain(Produto produto) {
         prox = null;
-        moeda = id;
+        this.produto = produto;
     }
 
-    private void acumulaMoedas(int cents, int quantidade){
+    public void acumulaMoedas(double cents, int quantidade){
 
     }
 
@@ -29,7 +30,7 @@ public abstract class MaquinaChain {
         return troco =0.0;
     }
 
-        public void dispensarProduto(Slots id) {
+        public void dispensarProduto() {
        
     }
 
