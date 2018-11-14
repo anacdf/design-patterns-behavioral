@@ -11,7 +11,7 @@ public class App {
 
         Produto refri = new Produto(0.5, 0.5, 0.5, "refri");
         Produto chocolate = new Produto(0.5, 0.5, 0.25, "chocolate");
-        Produto bala = new Produto(0.25, 0.50, 0.10, "bala");
+        Produto bala = new Produto(0.25, 0.25, 0.10, "bala");
 
         Caixa caixa = new Caixa(refri, slotDez, slotVinteCinco, slotCinquenta);
 
