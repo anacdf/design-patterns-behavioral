@@ -1,9 +1,10 @@
-package template2;
+package strategy2;
 
-import template1.ConcreteTemplate;
-
-public class AppTemplate {
+public class ClienteStrategy {
     public static void main(String[] args) {
+
+        Bubble bubble = new Bubble();
+        Estrategia estrategia = new Estrategia(bubble);
 
         double vetor[] = new double[5];
         vetor[0]=1.5;
@@ -12,8 +13,6 @@ public class AppTemplate {
         vetor[3]=7.5;
         vetor[4]=2.6;
 
-        ConcreteComparator comparator = new ConcreteComparator();
-        comparator.transformar(vetor);
-
+        estrategia.execute(vetor, 5);
     }
 }
