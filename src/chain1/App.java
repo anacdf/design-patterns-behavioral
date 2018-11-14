@@ -2,13 +2,21 @@ package chain1;
 
 public class App {
     public static void main(String[] args) {
-        Produto refri = new Produto(2.0, "Coca-Cola");
+        SlotDez slotDez = new SlotDez();
+        SlotVinteECinco slotVinteCinco = new SlotVinteECinco();
+        SlotCinquenta slotCinquenta = new SlotCinquenta();
 
-        MaquinaChain slotUm = new SlotUm(refri);
+        slotDez.setNextChain(slotVinteCinco);
+        slotVinteCinco.setNextChain(slotCinquenta);
 
-        slotUm.acumulaMoedas(1.0, 2);
-        slotUm.dispensarProduto();
+        Produto refri = new Produto(0.5, 0.5, 0.5, "refri");
+        Produto chocolate = new Produto(0.5, 0.5, 0.25, "chocolate");
+        Produto bala = new Produto(0.25, 0.50, 0.10, "bala");
 
+        Caixa caixa = new Caixa(refri, slotDez, slotVinteCinco, slotCinquenta);
 
+        caixa.vender(refri);
+        caixa.vender(chocolate);
+        caixa.vender(bala);
     }
 }

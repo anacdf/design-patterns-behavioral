@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d6d6c5-7f67-4f2d-a5bf-09c6adbf53aa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/template1/AbstractTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template1/AppTemplate1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template1/ConcreteTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chain1/Caixa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chain1/Chain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chain1/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chain1/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chain1/MaquinaChain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chain1/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chain1/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chain1/SlotCinco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chain1/SlotVinteECinco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chain1/SlotDez.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chain1/SlotDez.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chain1/SlotUm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chain1/SlotCinquenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chain1/Slots.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,38 +22,94 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AbstractTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/template1/AbstractTemplate.java">
+    <leaf>
+      <file leaf-file-name="Chain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chain1/Chain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="68">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcreteTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/template1/ConcreteTemplate.java">
+      <file leaf-file-name="Produto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chain1/Produto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="356">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppTemplate1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/template1/AppTemplate1.java">
+      <file leaf-file-name="Caixa.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chain1/Caixa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="146">
+              <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlotDez.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chain1/SlotDez.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#1574#1575#0" expanded="true" />
+                <element signature="e#1598#1599#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlotCinquenta.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chain1/SlotCinquenta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="34" column="83" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#1507#1508#0" expanded="true" />
+                <element signature="e#1535#1536#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlotVinteECinco.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chain1/SlotVinteECinco.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+              <folding>
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#1552#1553#0" expanded="true" />
+                <element signature="e#1580#1581#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chain1/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -58,8 +120,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -75,12 +137,6 @@
         <option value="$PROJECT_DIR$/src/chain1/Refri.java" />
         <option value="$PROJECT_DIR$/src/chain1/Slots.java" />
         <option value="$PROJECT_DIR$/src/chain1/Maquina.java" />
-        <option value="$PROJECT_DIR$/src/chain1/Produto.java" />
-        <option value="$PROJECT_DIR$/src/chain1/MaquinaChain.java" />
-        <option value="$PROJECT_DIR$/src/chain1/SlotCinco.java" />
-        <option value="$PROJECT_DIR$/src/chain1/SlotDez.java" />
-        <option value="$PROJECT_DIR$/src/chain1/App.java" />
-        <option value="$PROJECT_DIR$/src/chain1/SlotUm.java" />
         <option value="$PROJECT_DIR$/src/observer2/IObserver.java" />
         <option value="$PROJECT_DIR$/src/observer2/IObservable.java" />
         <option value="$PROJECT_DIR$/src/observer2/Alarme.java" />
@@ -98,6 +154,16 @@
         <option value="$PROJECT_DIR$/src/template1/AppTemplate1.java" />
         <option value="$PROJECT_DIR$/src/template1/AbstractTemplate.java" />
         <option value="$PROJECT_DIR$/src/template1/ConcreteTemplate.java" />
+        <option value="$PROJECT_DIR$/src/chain1/SlotUm.java" />
+        <option value="$PROJECT_DIR$/src/chain1/SlotCinco.java" />
+        <option value="$PROJECT_DIR$/src/chain1/MaquinaChain.java" />
+        <option value="$PROJECT_DIR$/src/chain1/Produto.java" />
+        <option value="$PROJECT_DIR$/src/chain1/Chain.java" />
+        <option value="$PROJECT_DIR$/src/chain1/SlotDez.java" />
+        <option value="$PROJECT_DIR$/src/chain1/SlotVinteECinco.java" />
+        <option value="$PROJECT_DIR$/src/chain1/SlotCinquenta.java" />
+        <option value="$PROJECT_DIR$/src/chain1/App.java" />
+        <option value="$PROJECT_DIR$/src/chain1/Caixa.java" />
       </list>
     </option>
   </component>
@@ -122,7 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -140,12 +205,13 @@
               <item name="design-patterns-behavioral" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-patterns-behavioral" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="template1" type="462c0819:PsiDirectoryNode" />
+              <item name="chain1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -166,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AppTemplate1">
+  <component name="RunManager" selected="Application.App">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -263,10 +329,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.AppTemplate1" />
         <item itemvalue="Application.AppStrategy1" />
         <item itemvalue="Application.AppObserver2" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +352,10 @@
       <workItem from="1541972680075" duration="1327000" />
       <workItem from="1542028825439" duration="5095000" />
       <workItem from="1542046885393" duration="3172000" />
-      <workItem from="1542070961408" duration="3099000" />
+      <workItem from="1542070961408" duration="3524000" />
+      <workItem from="1542142532625" duration="468000" />
+      <workItem from="1542209606835" duration="703000" />
+      <workItem from="1542219892976" duration="8767000" />
     </task>
     <task id="LOCAL-00001" summary="chain com nullpointer">
       <created>1541718271813</created>
@@ -309,11 +378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542052602763</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="template method1 complete">
+      <created>1542074837726</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542074837726</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23137000" />
+    <option name="totallyTimeSpent" value="33500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -359,16 +435,10 @@
     <MESSAGE value="chain com nullpointer" />
     <MESSAGE value="observer2 complete" />
     <MESSAGE value="strategy1 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="strategy1 complete" />
+    <MESSAGE value="template method1 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="template method1 complete" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/observer2/IObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/observer2/Alarme.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -401,7 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chain1/MaquinaChain.java">
+    <entry file="file://$PROJECT_DIR$/src/chain1/Caixa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
@@ -415,7 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chain1/SlotUm.java">
+    <entry file="file://$PROJECT_DIR$/src/chain1/SlotCinquenta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
@@ -429,7 +499,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chain1/SlotCinco.java">
+    <entry file="file://$PROJECT_DIR$/src/chain1/SlotVinteECinco.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
@@ -450,7 +520,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chain1/MaquinaChain.java">
+    <entry file="file://$PROJECT_DIR$/src/chain1/Caixa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
@@ -464,7 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chain1/SlotUm.java">
+    <entry file="file://$PROJECT_DIR$/src/chain1/SlotCinquenta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
@@ -478,7 +548,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chain1/SlotCinco.java">
+    <entry file="file://$PROJECT_DIR$/src/chain1/SlotVinteECinco.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
@@ -499,7 +569,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chain1/MaquinaChain.java">
+    <entry file="file://$PROJECT_DIR$/src/chain1/Caixa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
@@ -527,7 +597,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chain1/MaquinaChain.java">
+    <entry file="file://$PROJECT_DIR$/src/chain1/Caixa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
@@ -537,52 +607,10 @@
     <entry file="file://$PROJECT_DIR$/src/chain1/Chocolate.java" />
     <entry file="file://$PROJECT_DIR$/src/chain1/Salgadinho.java" />
     <entry file="file://$PROJECT_DIR$/src/chain1/Refri.java" />
-    <entry file="file://$PROJECT_DIR$/src/chain1/Produto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chain1/SlotCinco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chain1/SlotDez.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chain1/Slots.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chain1/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chain1/SlotUm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chain1/MaquinaChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -708,10 +736,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template1/AbstractTemplate.java">
+    <entry file="file://$PROJECT_DIR$/src/template1/AppTemplate1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -730,10 +758,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template1/AppTemplate1.java">
+    <entry file="file://$PROJECT_DIR$/src/template1/AbstractTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chain1/SlotDez.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#1598#1599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chain1/SlotVinteECinco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding>
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chain1/SlotCinquenta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="34" column="83" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#1507#1508#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chain1/Chain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chain1/Produto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chain1/Caixa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chain1/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
         </state>
       </provider>
     </entry>

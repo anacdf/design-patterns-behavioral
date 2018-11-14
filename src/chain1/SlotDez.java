@@ -1,37 +1,42 @@
 package chain1;
 
-public class SlotDez extends MaquinaChain {
-    private int quantidade;
-    private double cents;
+public class SlotDez implements Chain{
+    private Chain nextChain;
     private double saldo;
-    private double troco;
-    private Produto produto;
 
-    public SlotDez(Produto produto) {
-        super(produto);
-    }
-    public void acumulaMoedas(double cents, int quantidade){
-        if(cents==10){
-            saldo += cents;
-        } else saldo=0;
+    @Override
+    public void setNextChain(Chain nextChain) {
+        this.nextChain = nextChain;
     }
 
-    public double getSaldo(){
+    @Override
+    public void setSaldo(Produto produto) {
+        if(produto.getMoeda1()==0.10&&produto.getMoeda2()==0.10&&produto.getMoeda3()==0.10){
+            saldo = produto.getMoeda1()+produto.getMoeda2()+produto.getMoeda3();
+        }
+        else if(produto.getMoeda1()==0.10&&produto.getMoeda2()==0.10&&produto.getMoeda3()!=0.10){
+            saldo = produto.getMoeda1()+produto.getMoeda2();
+        }
+        else if(produto.getMoeda1()!=0.10&&produto.getMoeda2()==0.10&&produto.getMoeda3()==0.10){
+            saldo = produto.getMoeda2()+produto.getMoeda3();
+        }
+        else if(produto.getMoeda1()==0.10&&produto.getMoeda2()!=0.10&&produto.getMoeda3()!=0.10){
+            saldo = produto.getMoeda1();
+        }
+        else if(produto.getMoeda1()!=0.10&&produto.getMoeda2()!=0.10&&produto.getMoeda3()==0.10){
+            saldo = produto.getMoeda3();
+        }
+        else if(produto.getMoeda1()==0.10&&produto.getMoeda2()!=0.10&&produto.getMoeda3()==0.10){
+            saldo =produto.getMoeda1()+produto.getMoeda3();
+        }
+        else if(produto.getMoeda1()!=0.10&&produto.getMoeda2()==0.10&&produto.getMoeda3()!=0.10){
+            saldo = produto.getMoeda2();
+        }
+        else nextChain.setSaldo(produto);
+    }
+
+    @Override
+    public double getSaldo() {
         return saldo;
-    }
-
-    public double getTroco(){
-        if(produto.getPreco()<saldo){
-            return troco = saldo - produto.getPreco();
-        }
-        return troco=0.0;
-    }
-
-    public void dispensarProduto() {
-        if(saldo==produto.getPreco()){
-            System.out.println("Dear cliente, "+produto.getTipo() + " dispensado com sucesso!");
-        }else if (saldo>produto.getPreco()){
-            System.out.println("Dear cliente, "+produto.getTipo() + " dispensado com sucesso! e seu troco é " + getTroco() + " reais.");
-        }
     }
 }
