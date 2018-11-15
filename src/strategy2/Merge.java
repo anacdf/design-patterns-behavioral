@@ -4,8 +4,9 @@ import java.util.Arrays;
 
 public class Merge implements IAlgoritmos{
     private double[] list;
+    private int y = 1;
 
-    private double[] mergeSort(double[] whole) {
+    public double[] run(double[] whole, int y) {
         if (whole.length == 1) {
             return whole;
         }
@@ -16,8 +17,8 @@ public class Merge implements IAlgoritmos{
             double[] right = new double[whole.length - left.length];
             System.arraycopy(whole, left.length, right, 0, right.length);
 
-            left = mergeSort(left);
-            right = mergeSort(right);
+            left = run(left, y);
+            right = run(right, y);
 
             merge(left, right, whole);
 
@@ -61,11 +62,5 @@ public class Merge implements IAlgoritmos{
             whole[wholeIndex] = rest[i];
             wholeIndex++;
         }
-    }
-
-    @Override
-    public void run(double[] lista, int n) {
-        double[] num = mergeSort(lista);
-        System.out.println("Merge: "+Arrays.toString(num));
     }
 }

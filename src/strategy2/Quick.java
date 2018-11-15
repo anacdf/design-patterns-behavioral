@@ -3,6 +3,8 @@ package strategy2;
 import java.util.Arrays;
 
 public class Quick implements IAlgoritmos{
+    private int x=1;
+
     // shuffle the array a
     public void shuffle(double[] a) {
         int N = a.length;
@@ -17,10 +19,10 @@ public class Quick implements IAlgoritmos{
     /****************************************************************************************************************
      * Quicksort code from Sedgewick 7.1, 7.2.
      ***************************************************************************************************************/
-    public void run(double[] a, int x) {
+    public double[] run(double[] a, int x) {
         shuffle(a); // to guard against worst-case
         quicksort(a, 0, a.length - 1);
-        System.out.println("Quicksort:" + Arrays.toString(a));
+        return a;
     }
 
     public void quicksort(double[] a, int left, int right) {

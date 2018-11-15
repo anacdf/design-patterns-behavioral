@@ -1,5 +1,7 @@
 package strategy2;
 
+import java.util.Arrays;
+
 public class Estrategia {
     private IAlgoritmos algoritmos;
 
@@ -9,6 +11,7 @@ public class Estrategia {
 
     public void execute(double[]lista, int num){
         algoritmos.run(lista, num);
+        System.out.println(Arrays.toString(lista));
         }
 
 }

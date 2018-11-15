@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Bubble implements IAlgoritmos{
 
-    public void run(double[] a, int n)
+    public double[] run(double[] a, int n)
     {
         for (int i = n - 1; i > 0; i--) {
             for (int j = 0; j < i; j++)
@@ -14,7 +14,7 @@ public class Bubble implements IAlgoritmos{
                     a[j + 1] = temp;
                 }
         }
-        System.out.println("Bubble: "+ Arrays.toString(a));
+            return a;
     }
 
 }
