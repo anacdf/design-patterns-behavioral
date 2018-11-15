@@ -1,5 +1,7 @@
 package strategy2;
 
+import java.util.Arrays;
+
 public class Insertion implements IAlgoritmos {
     int b = 1;
     public void run(double[] a, int b) {
@@ -10,6 +12,7 @@ public class Insertion implements IAlgoritmos {
                     exch(a, j, j - 1);
                 else
                     break;
+        System.out.println("Insertion:"+Arrays.toString(a));
     }
 
     // exchange a[i] and a[j]

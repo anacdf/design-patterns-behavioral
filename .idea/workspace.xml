@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d6d6c5-7f67-4f2d-a5bf-09c6adbf53aa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/strategy2/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy2/ClienteStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy2/Estrategia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy2/IAlgoritmos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy2/Insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy2/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy2/Quick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategy1/AppStrategy1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy1/AppStrategy1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template2/AppTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/template2/AppTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy2/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy2/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy2/ClienteStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy2/ClienteStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy2/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy2/Insertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy2/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy2/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy2/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy2/Quick.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,86 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ClienteStrategy.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/strategy2/ClienteStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppStrategy1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy1/AppStrategy1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IAlgoritmos.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy2/IAlgoritmos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Estrategia.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy2/Estrategia.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding>
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bubble.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy2/Bubble.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Insertion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy2/Insertion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Merge.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy2/Merge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Quick.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy2/Quick.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -153,14 +70,14 @@
         <option value="$PROJECT_DIR$/src/template2/AbstractComparator.java" />
         <option value="$PROJECT_DIR$/src/strategy1/Calendario.java" />
         <option value="$PROJECT_DIR$/src/strategy1/AppStrategy1.java" />
-        <option value="$PROJECT_DIR$/src/strategy2/Quick.java" />
         <option value="$PROJECT_DIR$/src/strategy2/IAlgoritmos.java" />
         <option value="$PROJECT_DIR$/src/strategy2/Algoritmos.java" />
-        <option value="$PROJECT_DIR$/src/strategy2/Bubble.java" />
-        <option value="$PROJECT_DIR$/src/strategy2/Insertion.java" />
-        <option value="$PROJECT_DIR$/src/strategy2/Merge.java" />
         <option value="$PROJECT_DIR$/src/strategy2/Estrategia.java" />
         <option value="$PROJECT_DIR$/src/template2/AppTemplate.java" />
+        <option value="$PROJECT_DIR$/src/strategy2/Quick.java" />
+        <option value="$PROJECT_DIR$/src/strategy2/Merge.java" />
+        <option value="$PROJECT_DIR$/src/strategy2/Insertion.java" />
+        <option value="$PROJECT_DIR$/src/strategy2/Bubble.java" />
         <option value="$PROJECT_DIR$/src/strategy2/ClienteStrategy.java" />
       </list>
     </option>
@@ -372,7 +289,7 @@
       <workItem from="1542070961408" duration="3524000" />
       <workItem from="1542142532625" duration="468000" />
       <workItem from="1542209606835" duration="703000" />
-      <workItem from="1542219892976" duration="13467000" />
+      <workItem from="1542219892976" duration="14674000" />
     </task>
     <task id="LOCAL-00001" summary="chain com nullpointer">
       <created>1541718271813</created>
@@ -416,15 +333,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542234410802</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="strategy2 complete">
+      <created>1542236424159</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1542236424159</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38200000" />
+    <option name="totallyTimeSpent" value="39407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -434,10 +357,10 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32913387" />
-      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.32913387" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.32913387" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Designer" order="6" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18008785" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18008785" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -469,7 +392,8 @@
     <MESSAGE value="template method1 complete" />
     <MESSAGE value="chain of responsability1 complete" />
     <MESSAGE value="template2 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="template2 complete" />
+    <MESSAGE value="strategy2 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="strategy2 complete" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/chain1/Slots.java">
@@ -807,37 +731,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy2/Bubble.java">
+    <entry file="file://$PROJECT_DIR$/src/template2/AppTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy2/Insertion.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy1/AppStrategy1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy2/Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy2/Estrategia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -850,29 +754,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy2/Quick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="289">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy1/AppStrategy1.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy2/Merge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        <state relative-caret-position="222">
+          <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template2/AppTemplate.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy2/Insertion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="13" />
+        <state relative-caret-position="205">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy2/Bubble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy2/Estrategia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy2/ClienteStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="697">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
         </state>
       </provider>
     </entry>
